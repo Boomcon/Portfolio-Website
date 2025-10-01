@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
@@ -31,6 +36,9 @@ body nav ul li a {
 }
 body nav ul li a:hover {
   color: rgb(54, 212, 138);
+}
+body nav ul li:hover {
+  transform: scale(1.2);
 }
 body main section.main-area {
   min-height: 70vh;
@@ -108,6 +116,9 @@ body main section.resume section.table table tr:hover {
 }
 body main section.resume section.table table tr td {
   padding: 1rem;
+}
+body main section.resume section.table table tr td img {
+  margin-right: 1rem;
 }
 body main section.resume section.picture {
   flex: 1 1 500px;
